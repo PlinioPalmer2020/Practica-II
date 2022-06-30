@@ -13,8 +13,8 @@ let impares = arregloMul.filter(x => x%2 != 0);
 console.log(impares);
 
 // 3 - Escriba una función flecha del tipo campo público de clase que tome por argumento un nombre y retorne el mensaje "Hola nombre". Usar template string.
-
-
+const saludo = nombre => `Hola ${nombre}`;
+console.log(saludo("plinio"));
 // 4 - Haga una función flecha que calcule el área de un círculo. El valor de pi debe ser constante.
 
 

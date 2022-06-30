@@ -15,8 +15,11 @@ console.log(impares);
 // 3 - Escriba una función flecha del tipo campo público de clase que tome por argumento un nombre y retorne el mensaje "Hola nombre". Usar template string.
 const saludo = nombre => `Hola ${nombre}`;
 console.log(saludo("plinio"));
-// 4 - Haga una función flecha que calcule el área de un círculo. El valor de pi debe ser constante.
 
+// 4 - Haga una función flecha que calcule el área de un círculo. El valor de pi debe ser constante.
+const pi = 3.14159;
+const AreaCirculo = (p,r) => p* Math.pow(r,2)
+console.log(`El Area del Circulo es ${AreaCirculo(pi,5)}`)  
 
 // 5 - Utilice de destructuring para crear dos variable que almacenen los primeros dos elementos del arreglo resultante del ejercicio 2. 
 

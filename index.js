@@ -22,6 +22,10 @@ const AreaCirculo = (p,r) => p* Math.pow(r,2)
 console.log(`El Area del Circulo es ${AreaCirculo(pi,5)}`)  
 
 // 5 - Utilice de destructuring para crear dos variable que almacenen los primeros dos elementos del arreglo resultante del ejercicio 2. 
+const destructuring = ([valor1, valor2]) =>
+    console.log(`Los primeros dos elemento del arreglo son ${valor1} y ${valor2} del ejercicio 2`)
 
+
+destructuring(impares);
 
 // 6 - Cree una clase llamada persona con dos atributos : nombre y apellido. Luego cree otra clase llama empleado que herede de Persona y tenga un atributo adicional llamado salario.
